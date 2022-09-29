@@ -19,4 +19,4 @@ add_library(hello_shared SHARED libHelloSLAM.cpp)
 # 添加可执行程序调用hello库中函数
 add_executable(useHello useHello.cpp)
 # 将库文件链接到可执行程序上
-target_link_libraries(useHello hello_shared)
+# target_link_libraries(useHello hello_shared)
